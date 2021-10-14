@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactcryptotracker-dev-224530-authRole",
+      "UnauthRoleArn": "arn:aws:iam::158267328251:role/amplify-reactcryptotracker-dev-224530-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::158267328251:role/amplify-reactcryptotracker-dev-224530-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-reactcryptotracker-dev-224530-deployment",
+      "UnauthRoleName": "amplify-reactcryptotracker-dev-224530-unauthRole",
+      "StackName": "amplify-reactcryptotracker-dev-224530",
+      "StackId": "arn:aws:cloudformation:eu-central-1:158267328251:stack/amplify-reactcryptotracker-dev-224530/ad1a5660-2d2f-11ec-9e97-0a3ba191c126",
+      "AmplifyAppId": "dyi2j3rj2msgn"
+    }
+  }
+}
