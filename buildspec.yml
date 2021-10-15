@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing nodejs...
+      - pkg install node
+      - echo Installing yarn...
+      - npm install --global yarn
+    pre_build:
+      commands:
+        - Installing dependencies
+        - yarn
+    build:
+      commands:
+        - echo Testing...
+        - npm run test
+        - echo Building...
+        - npm run build
+  
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: dist
