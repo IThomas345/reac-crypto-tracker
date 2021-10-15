@@ -21,3 +21,4 @@ artifacts:
   files:
     - buildspec.yml
     - "**/*"
+  base-directory: build
