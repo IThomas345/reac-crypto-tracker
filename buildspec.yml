@@ -4,7 +4,8 @@ phases:
   install:
     commands:
       - echo Installing nodejs...
-      - pkg install node
+      - curl -fsSL https://deb.nodesource.com/setup_14.x | -E bash -
+      - apt install -y nodejs
       - echo Installing yarn...
       - npm install --global yarn
     pre_build:
